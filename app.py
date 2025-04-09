@@ -71,7 +71,8 @@ st.markdown(
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-delilah_avatar = "assets\delilah_avatar.png"
+delilah_avatar = r"assets\delilah_avatar.png"
+
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
