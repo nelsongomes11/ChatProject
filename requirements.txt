@@ -1,0 +1,9 @@
+langchain
+ipykernel
+langchain_community
+langchain_core
+langchain_groq
+streamlit
+transformers
+langchain-google-community
+streamlit_chat
