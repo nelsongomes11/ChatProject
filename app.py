@@ -1,5 +1,5 @@
 # pylint: disable-all
-from huggingface_hub import hf_hub_download
+from huggingface_hub import login
 import streamlit as st
 from langchain_groq import ChatGroq
 from langchain.agents import initialize_agent, AgentType
@@ -62,7 +62,7 @@ load_dotenv()
 api_key=os.getenv("GROQ_API_KEY")
 
 token = os.getenv("HF_TOKEN")
-hf_hub_download("hexgrad/Kokoro-82M", "config.json", token=token)
+login(token)
 
 
 
