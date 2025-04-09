@@ -71,7 +71,7 @@ st.markdown(
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-delilah_avatar = r"assets\delilah_avatar.png"
+delilah_avatar = "https://raw.githubusercontent.com/nelsongomes11/ChatProject/refs/heads/main/assets/delilah_avatar.png"
 
 
 if "messages" not in st.session_state:
