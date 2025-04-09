@@ -56,8 +56,9 @@ background-color:rgba(0,0,0,0);
 """
 st.markdown(footer_hide, unsafe_allow_html=True)
 
+load_dotenv()
 
-
+api_key=os.getenv("GROQ_API_KEY")
 
 
 
@@ -70,8 +71,6 @@ st.markdown(
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-
-api_key = "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"
 delilah_avatar = "assets\delilah_avatar.png"
 
 if "messages" not in st.session_state:
