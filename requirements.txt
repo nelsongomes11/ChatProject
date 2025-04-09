@@ -8,3 +8,4 @@ transformers
 langchain-google-community
 streamlit_chat
 kokoro
+torch
